@@ -10,3 +10,37 @@ body {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 16px 0;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
+  margin-right: auto;
+}
+
+.menu a {
+  color: #e5e7eb;
+}
+
+.menu {
+  /* outer layout */
+  max-width: 960px;
+  margin: 0 auto;
+  /* inner layout */
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
