@@ -24,10 +24,13 @@ header {
   padding: 16px 0;
 }
 
-.logo {
+#logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 600;
+}
+
+.menu li:first-child {
   margin-right: auto;
 }
 
