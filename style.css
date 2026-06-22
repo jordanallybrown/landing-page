@@ -136,3 +136,32 @@ header {
   margin-top: 8px;
   color: #828893;
 }
+
+.testimonials {
+  background-color: #e5e7eb;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+blockquote {
+  font-size: 32px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  align-self: flex-end;
+}
+
+.txt-bold {
+  font-weight: 600;
+}
+
+.wrapper-md {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
