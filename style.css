@@ -198,3 +198,13 @@ strong {
   cursor: pointer;
   border-radius: 8px;
 }
+
+footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  min-height: 100px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
