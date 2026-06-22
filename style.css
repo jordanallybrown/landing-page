@@ -75,7 +75,7 @@ header {
   margin-bottom: 16px;
 }
 
-.img-hero {
+.hero-img {
   height: 200px;
   background-color: #6e747d;
   display: flex;
@@ -100,4 +100,39 @@ header {
   border: none;
   cursor: pointer;
   border-radius: 8px;
+}
+
+.info {
+  min-height: 400px;
+  padding-top: 32px;
+}
+
+.txt-info-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.sm-img {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card p {
+  margin-top: 8px;
+  color: #828893;
 }
