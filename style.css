@@ -155,8 +155,9 @@ blockquote {
   align-self: flex-end;
 }
 
-.txt-bold {
+.txt-bold-md {
   font-weight: 600;
+  font-size: 24px;
 }
 
 .wrapper-md {
@@ -164,4 +165,36 @@ blockquote {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+.cta {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 36px 48px;
+  width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+strong {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  padding: 8px 36px;
+  cursor: pointer;
+  border-radius: 8px;
 }
